@@ -14,9 +14,7 @@ wrong label is not graded.
 ## Selected issue
 
 **Issue link**
-
-[The individual Path Review issue page. A link to the repository or the issue list
-does not satisfy this field.]
+https://github.com/codepath/pathreview-ai301-fa26-s1/issues/63
 
 **Verdict output**
 
@@ -30,7 +28,17 @@ partial re-run costs about $0.20 — or run the skill on different candidates. O
 recording `reject` for the issue you chose earns no credit for this field.
 
 ```
-paste the output here, including the closing JSON block
+  {
+    "item": "https://github.com/codepath/pathreview-ai301-fa26-s1/issues/63",
+    "checks": [
+      {"name": "no-policy-ban", "grade": "pass", "evidence": "docs/CONTRIBUTING.md covers branches, commits, CI, style, tests and is entirely silent on AI use — no ban."},
+      {"name": "Community alive", "grade": "pass", "evidence": "Newest main commit 'chore: track five more manifest entries against the tracker' dated Sep 16, 2026 — 6 days before today (2026-09-22)."},
+      {"name": "Repo in use", "grade": "pass", "evidence": "No releases published, but last push Sep 16, 2026 is well within 6 months."},
+      {"name": "Scope fits you", "grade": "pass", "evidence": "Issue body has no 'Operating system' field (fields are Relevant Files, Estimated Effort, repro command)."},
+      {"name": "Issue is unclaimed", "grade": "pass", "evidence": "Assignees: None; Development box: 'No branches or pull requests'."}
+    ],
+    "verdict": "accept"
+  },
 ```
 
 ---
@@ -45,11 +53,16 @@ Quote source text directly in each field below. Paraphrase does not satisfy them
 only one run occurred. **The last score in your list must match the agreement line in the
 `eval-run.txt` you committed** — that file is the record of your final run.]
 
+Run 1: 9/20
+Run 2: 18/20
+
 **Issue analysis**
 
 [One scored issue, identified by id (`issue-01` through `issue-20`; the `calib-`
 issues are not scored). State your rubric's decision, the gold label, and the
 reasoning that produced your rubric's result.]
+
+issue-04:  Gold accept  verdict: accept  
 
 **Check rationale**
 
