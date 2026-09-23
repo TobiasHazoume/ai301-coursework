@@ -63,11 +63,20 @@ issues are not scored). State your rubric's decision, the gold label, and the
 reasoning that produced your rubric's result.]
 
 issue-04:  Gold accept  verdict: accept  
+My rubric accepted this issue because it passed all 5 of the checks I created. The contribution policy for the repo does not exclicitly mention the use of AI so The model considers AI to be allowed.The Community is alive since the latest commit was September 16th 2026.The repo has no public releases but since the last push was on the 16th it's still considered active. The scope fits my dev environment since there's no mention of the code being explicitly made for non-windows machines. Lastly the issue is unclaimed since the assignees are Non and the Development box has no branches or pull request.
 
 **Check rationale**
 
 [One check from the `rubric.md` uploaded to `tools/issue-select/`, quoted as it is
 currently written, with the reasoning behind its current form.]
+
+Check Rationale: Community alive
+
+| Community alive | Last push date, last 5 default-branch commit dates | Last push or a commit within the last 30 days | required |
+
+
+This check covers The 1st family of checks "is the maintainer alive". The purpose of this check is the see if a repo is being actively reviewed/pushed by the maintainer. if the maintainer is inactive then it would be unlikely that any pull request will be read at all.30 days was chosen since it the longest amount of time I would be willing to wait from someone whos project may not be their highest priority.
+I made this check required because if a contributor is unable to get feedback in a timely manner than their efforts wouls be wasted. 
 
 **Trade-offs**
 
@@ -76,7 +85,9 @@ result it changes, a canary you re-ran with `--only`, a case you accept it will 
 stated reason nothing changed elsewhere. "Nothing changed, and here is how I know" earns
 the point in full when the reason follows.]
 
----
+A possible Trade off is that this does not account to busy periods in a maintainers life.If the maintainer had to take a 2 month hiatus to finish up a major project deadline at their job my check would consider the repo as dead, being unaware that the hiatus has been clearly communicated to the community.
+
+
 
 ## Selection rationale
 
@@ -88,10 +99,12 @@ This is also the basis for the claim comment you write in Unit 2.
 
 [Answer all three:
 
-1. The issue's fit to your interests and to the time available.
+1. The issue's fit to your interests and to the time available:
+The issue appears to be a minor logical error related to strings and would be a simple fix.
 2. What the verdict identified correctly, and what you weighed that the rubric could
-   not.
-3. The anticipated difficulty in claiming it.]
+   not:
+   I correctly identified the 5 checks I put in place(Ai policy,active community,repo in use,scope fits me and issue is unlcaimed) what was weighed by be as a human was my comfortability with evaulating and manipulating strings
+3. The anticipated difficulty in claiming it: It seems easy to claim
 
 ---
 
