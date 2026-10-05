@@ -18,6 +18,7 @@ label is not graded.
 [Your GitHub username, exactly as it appears on your profile — no `@`, no profile URL. Your
 comments upstream are identified by this name.]
 
+TobiasHazoume
 ---
 
 ## Posted upstream
@@ -27,6 +28,8 @@ comments upstream are identified by this name.]
 [Link to the comment where you claimed the issue. Use the comment's own permalink, not the
 issue page on its own. **Then paste the text of that comment underneath the link** — the
 pasted text is what this field is graded on, so copy across what you actually posted.]
+
+https://github.com/codepath/pathreview-ai301-fa26-s1/issues/63#issuecomment-5986885544
 
 **Reproduction comment**
 
